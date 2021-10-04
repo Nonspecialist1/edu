@@ -3,7 +3,7 @@ package ch05;
 public class ArrayCopyExample2 {
     public static void main(String[] args) {
         int[] arr1 = { 10, 20, 30 };
-        int[] arr2 = new int[arr1.length]; // 깊은 복사(deep copy)
+        int[] arr2 = new int[arr1.length]; // 깊은 복사(deep copy) (중요)
 
         System.out.println(arr1 == arr2);
         for(int i=0; i<arr1.length; i++){

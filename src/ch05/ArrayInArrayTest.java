@@ -17,8 +17,8 @@ public class ArrayInArrayTest {
         };
         String[] names = {"김영희", "김철수", "홍길동"};
         String[] subjects = {"수학", "영어", "국어"};
-        int[] stuScore = new int[subjects.length];
-        int[] subScore = new int[names.length];
+        int[] stuScore = new int[names.length];
+        int[] subScore = new int[subjects.length];
 
         for(int i=0; i<scores.length; i++){
             for(int j=0; j<stuScore.length; j++){

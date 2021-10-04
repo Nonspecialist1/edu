@@ -4,7 +4,7 @@ public class MethodTest {
     public static void main(String[] args) {
         //printMyself("황장군", 180.82f, 17, 'A');
         // 호출할 때 =을 붙이면 void형이 100%아님, 타입이 다른 경우 제외하고
-        // =을 안 붙였다고 해서 void형이 100%인것은 아니다 -> non void이지만, return을 안 받은 경우 존재
+        // =가 없다고해서 100% void형은 아니다 -> non void이지만, return을 안 받은 경우 존재
 
         int mon = (int)(Math.random() * 12) +1; //1~12
         printSeason(mon);
