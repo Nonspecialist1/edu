@@ -5,8 +5,8 @@ public class CarTest3 {
         Car car = new Car();
         car.brand = "현대";
         car.nm = "소나타";
-
-        Car car2 = new Car("현대", "그랜저");
+        // 생성자를 이용해서 값 설정을 빠르게 함
+        Car car2 = new Car("기아", "스포티지");
         System.out.println("car2.brand : " + car2.brand);
         System.out.println("car2.brand : " + car2.nm);
 

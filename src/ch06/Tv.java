@@ -1,7 +1,7 @@
 package ch06;
 
 public class Tv {
-    // 클래스 안 변수에는 이제 아묻따 private 선언, 상수는 안해도됌
+    // 클래스 안 맴버필드는 이제 아묻따 private 선언, 상수는 안해도됌
     private String brand; // 초기값 null
     private int inch; // 초기값 0
 
