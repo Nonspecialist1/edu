@@ -25,12 +25,8 @@ public class Dealer extends Gamer{
                 Card c = cd.getCard();
                 receiveCard(c);
             }
-
         }
 
-
     }
-
-
 
 }
